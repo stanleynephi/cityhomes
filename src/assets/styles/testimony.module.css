@@ -1,0 +1,24 @@
+/* design for the testimony section*/
+
+.container{
+    height: 90vh;
+    background-color: yellow;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.cards{
+    margin: 3rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    img{
+        display:none;
+    }
+    button{
+
+        display: none;
+    }
+}

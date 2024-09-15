@@ -1,0 +1,108 @@
+.footer{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    background-color: gray;
+}
+
+.contactcard{
+    background-color: red;
+    width: 30rem;
+    padding: 2rem;
+    
+
+    h2{
+        text-align: start;
+    }
+
+    .addresses{
+        display: flex;
+        flex-direction: row;
+        background-color: yellow;
+    }
+    .electronic{
+        background-color: aliceblue;
+        width: fit-content;
+        padding: 0 2rem;
+
+
+        p{
+            display: flex;
+            text-align: start;
+        }
+
+        p:nth-child(1),:nth-child(2){
+            margin-bottom: -1rem;
+        }
+    }
+
+    .address{
+        p{
+            display: block;
+            position: relative;
+            justify-self: center;
+            text-align: start;
+            padding: 0 1rem;
+            
+        }
+    }
+
+    p{
+        text-align: start;
+    }
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+
+
+    fieldset{
+        border: none;
+        display: flex;
+        flex-direction:row;
+        text-align: start;
+        gap:2rem;
+
+        input,textarea{
+            display: block;
+        }
+
+        input{
+            height: 2rem;
+        }
+
+
+        textarea{
+            height: 5rem;
+            resize: none;
+        }
+    }
+
+    button{
+        width: fit-content;
+        display: block;
+        position:relative;
+        align-self: end;
+        font-size: larger;
+        font-weight: bold;
+        background:none;
+        border: none;
+    }
+
+    button:hover{
+        color: rgb(109, 109, 174);
+    }
+}

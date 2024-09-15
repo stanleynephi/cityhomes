@@ -1,0 +1,17 @@
+.latesthome_container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homecontents{
+    width: 30rem;
+    text-align: start;
+}

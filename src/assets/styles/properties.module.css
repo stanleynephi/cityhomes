@@ -1,0 +1,26 @@
+.properties{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+
+
+    button{
+        display: none;
+    }
+}
+
+
+.cardstyles{
+    background-color: red;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.cardstyles:nth-child(even){
+    background-color: blue;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,15 @@
+nav{
+    width: 30rem;
+}
+
+
+.navigations{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+}

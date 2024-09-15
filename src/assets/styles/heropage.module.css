@@ -1,0 +1,14 @@
+.heropage{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 90vh;
+    align-items: start;
+    justify-content: center;
+    padding: 0 8rem;
+    text-align: center;
+
+    button{
+        width: 10rem;
+    }
+}
