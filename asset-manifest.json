@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cityhomes/static/css/main.ed539dd4.css",
+    "main.js": "/cityhomes/static/js/main.161022f0.js",
+    "static/js/453.43333cb7.chunk.js": "/cityhomes/static/js/453.43333cb7.chunk.js",
+    "index.html": "/cityhomes/index.html",
+    "main.ed539dd4.css.map": "/cityhomes/static/css/main.ed539dd4.css.map",
+    "main.161022f0.js.map": "/cityhomes/static/js/main.161022f0.js.map",
+    "453.43333cb7.chunk.js.map": "/cityhomes/static/js/453.43333cb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed539dd4.css",
+    "static/js/main.161022f0.js"
+  ]
+}
